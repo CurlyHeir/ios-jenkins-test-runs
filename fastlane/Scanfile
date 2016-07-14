@@ -11,3 +11,6 @@
 # open_report true
 
 # clean true
+
+workspace "Integration-example.xcworkspace"
+scheme "IntegrationTests"

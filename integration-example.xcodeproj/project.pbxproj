@@ -242,6 +242,7 @@
 				TargetAttributes = {
 					21AE72211C78E18B0080532E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HE8VYM75HP;
 					};
 					21AE723D1C78E18B0080532E = {
 						CreatedOnToolsVersion = 7.2;
@@ -523,10 +524,12 @@
 			baseConfigurationReference = D5D2F1E35C1A0291F6783542 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "integration-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.integration-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -535,10 +538,12 @@
 			baseConfigurationReference = 780DF6DE90B37A5CAD168814 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "integration-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.integration-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
