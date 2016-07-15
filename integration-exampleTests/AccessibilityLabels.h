@@ -13,11 +13,10 @@
 #define Home_firstButton @"Home_firstButton"
 #define Home_secondButton @"Home_secondButton"
 
-#define First_ScreenName @"ScreenName"
 #define SecondViewController_titleLabel @"SecondViewController_titleLabel"
 
-#define Second_ScreenName @"Second_ScreenName"
 #define Second_Slider @"Second_Slider"
 #define Second_Label @"Second_Label"
+#define Second_editText @"Second_editText"
 
 #endif /* AccessibilityLabels_h */

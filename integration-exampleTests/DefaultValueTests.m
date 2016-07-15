@@ -22,23 +22,16 @@
 
 - (void)testThatValueForSliderShouldHaveSetMinimumValue {
     [tester tapViewWithAccessibilityLabel:Home_secondButton];
-     [tester waitForTimeInterval:3];
-    [tester waitForViewWithAccessibilityLabel:Second_ScreenName];
-     [tester waitForTimeInterval:3];
     [tester setValue:60.f forSliderWithAccessibilityLabel:Second_Slider];
     UISlider * slider = (UISlider *)[tester waitForViewWithAccessibilityLabel:Second_Slider];
-     [tester waitForTimeInterval:3];
     assertThatFloat(slider.value, is(@30));
 }
 
 - (void)testThatTitleForButtonsAreCorrect {
     UIButton *firstButton = (UIButton *)[tester waitForViewWithAccessibilityLabel:Home_firstButton];
-    [tester waitForTimeInterval:3];
     assertThat(firstButton.titleLabel.text, is(@"FirstViewController"));
     
-    [tester waitForTimeInterval:3];
     UIButton *secondButton = (UIButton *)[tester waitForViewWithAccessibilityLabel:Home_secondButton];
-    [tester waitForTimeInterval:3];
     assertThat(secondButton.titleLabel.text, is(@"SecondViewController"));
 }
 

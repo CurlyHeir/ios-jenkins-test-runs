@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211918FB1D39A73200CE6C65 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211918FA1D39A73200CE6C65 /* AcceptanceTests.m */; };
 		21AE72271C78E18B0080532E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE72261C78E18B0080532E /* main.m */; };
 		21AE722A1C78E18B0080532E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE72291C78E18B0080532E /* AppDelegate.m */; };
 		21AE722D1C78E18B0080532E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AE722C1C78E18B0080532E /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		211918FA1D39A73200CE6C65 /* AcceptanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
 		21AE72221C78E18B0080532E /* integration-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "integration-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE72261C78E18B0080532E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21AE72281C78E18B0080532E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				21AE72531C78EFA90080532E /* DefaultValueTests.m */,
+				211918FA1D39A73200CE6C65 /* AcceptanceTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 			files = (
 				21AE725A1C78F4E70080532E /* ExecutingHelper.m in Sources */,
 				21AE725E1C79253D0080532E /* TestCase.m in Sources */,
+				211918FB1D39A73200CE6C65 /* AcceptanceTests.m in Sources */,
 				21AE72571C78F13F0080532E /* TestHelper.m in Sources */,
 				21AE72431C78E18B0080532E /* integration_exampleTests.m in Sources */,
 				21AE725D1C790B280080532E /* HTTPClient.m in Sources */,
@@ -553,7 +557,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "integration-exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.integration-exampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/integration-example.app/integration-example";
@@ -566,7 +570,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "integration-exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.integration-exampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/integration-example.app/integration-example";

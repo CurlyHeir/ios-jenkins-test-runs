@@ -12,16 +12,9 @@
 
 @implementation TestCase
 
-- (void)beforeAll {
-    [super beforeAll];
-    static dispatch_once_t onceToken = 0;
-    dispatch_once(&onceToken, ^{
-        // TODO : request
-//        [[TestHelper sharedInstance] login];
-//        [[TestHelper sharedInstance] addTestSuite:@"TestIntegrationFromXcode"];
-//        [[TestHelper sharedInstance] addDevice:@"iPhone 5s Simulator"];
-//        [[TestHelper sharedInstance] retrieveTestingSessionID];
-    });
+- (void)afterAll {
+    [super afterAll];
+    exit(0);
 }
 
 @end
