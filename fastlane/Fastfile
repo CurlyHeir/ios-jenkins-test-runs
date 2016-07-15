@@ -15,8 +15,10 @@ platform :ios do
   end
 
   desc "Runs all integration tests" 
-  lane :integrationTest do 
-    scan
+  lane :integration do 
+    scan(
+      clean: true
+    )
   end 
 
   # You can define as many lanes as you want

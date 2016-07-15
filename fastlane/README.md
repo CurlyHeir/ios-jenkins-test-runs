@@ -11,9 +11,9 @@ sudo gem install fastlane
 fastlane ios test
 ```
 Runs all the tests
-### ios integrationTest
+### ios integration
 ```
-fastlane ios integrationTest
+fastlane ios integration
 ```
 Runs all integration tests
 
