@@ -6,7 +6,7 @@ default_platform :ios
 
 platform :ios do
   before_all do
-    
+    setup_jenkins()
   end
 
   desc "Runs all the tests"
@@ -17,7 +17,8 @@ platform :ios do
   desc "Runs all integration tests" 
   lane :integration do 
     scan(
-      clean: true
+      clean: true,
+      device: "iPhone 6s"
     )
   end 
 
